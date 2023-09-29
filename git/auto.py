@@ -6,7 +6,7 @@ def push_code():
     print(f'Pushing code to git repository...')
     try:
         # Run git script
-        subprocess.run(["python", "script.py"])
+        subprocess.run(["python3", "script.py"])
         print("Code push successfully.")
     except Exception as e:
         print(f"An error occurred: {str(e)}")

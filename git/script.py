@@ -2,7 +2,7 @@ import git
 
 # remote repo and local repo
 repo_url = 'https://github.com/sky2626/automation.git'
-repo_path = '/Users/Ma Guy/Desktop/git-repos/automation'
+repo_path = '/mnt/c/Users/Ma Guy/Desktop/git-repos/automation'
 
 # intialize the git repo object
 repo = git.Repo(repo_path)
